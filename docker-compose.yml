@@ -1,0 +1,11 @@
+version: "3"
+services:
+  tmux:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "10000:22"
+    volumes:
+      - /tmp/tmux_shared_session/tmux_shared_sock:/tmp/tmux_shared_session/tmux_shared_sock
+    command: /usr/sbin/sshd -D
