@@ -9,7 +9,7 @@ You can share your tmux session with guests as **a readonly session** using ssh 
 ## Requirements
 
 * docker
-* docker-compose (optional)
+* docker-compose
 * tmux
 * ngrok (optional, if you do not want to publish your ports and ip.)
 
