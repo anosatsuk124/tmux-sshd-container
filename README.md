@@ -11,6 +11,7 @@ You can share your tmux session with guests as **a readonly session** using ssh 
 * docker
 * docker-compose (optional)
 * tmux
+* ngrok (optional, if you do not want to publish your ports and ip.)
 
 ## Usage
 
@@ -42,8 +43,6 @@ cat id_ed25519.pub >> authorized_keys
 ```bash
 ssh root@{your ip} -p 10000
 ```
-
-
 
 tmux-sshd-container
 
