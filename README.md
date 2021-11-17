@@ -40,7 +40,7 @@ cat id_ed25519.pub >> authorized_keys
 ### 4. Login ssh
 
 ```bash
-ssh tmux_login@{your ip} -p 10000
+ssh root@{your ip} -p 10000
 ```
 
 
